@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <!-- Data aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600;700&family=Kumbh+Sans:wght@800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- swiper slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+
+    <!-- slick slider -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+      integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>AL Sabeel-contact</title>
+  </head>
+  <body>
+    <!-- header section starts-->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 fixed-top">
+        <div class="container">
+          <a class="navbar-brand me-auto p-0" href="#"
+            ><img src="assets/images/logo.svg" alt="" class="img-fluid"
+          /></a>
+          <i
+            class="bi bi-list navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          ></i>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  services <i class="bi bi-caret-down-fill"></i>
+                </a>
+                <ul
+                  class="dropdown-menu w-100"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">services 1</a></li>
+                  <li><a class="dropdown-item" href="#">services 2</a></li>
+                  <li><a class="dropdown-item" href="#">services 3</a></li>
+                  <li><a class="dropdown-item" href="#">services 4</a></li>
+                  <li><a class="dropdown-item" href="#">services 5</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">careers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">clients</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link contact" href="#" tabindex="-1">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- header section ends-->
+
+    <main>
+      <section id="contact-page" class="contact-page">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 text-start">
+              <h6 class="section-sub-title">contact</h6>
+              <h3 class="section-main-title">whats happening</h3>
+            </div>
+            <div class="col-lg-6 col-md-6 text-start contact-section">
+              <p class="section-description m-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                debitis impedit repudiandae aperiam repellendus nostrum quaerat
+                fugit consequatur dignissimos cupiditate, nulla voluptatem saepe
+              </p>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up" data-aos-duration="3000">
+            <div
+              class="col-lg-6 col-md-6 text-start d-flex align-items-center justify-content-start"
+            >
+              <a class="section-sub-title">
+                <img src="/assets/images/Arrow-down.svg" alt="" /> view
+                directory
+              </a>
+            </div>
+            <div class="col-lg-6 col-md-6 text-start contact-section">
+              <h6 class="contact-form-title">fill the details below</h6>
+              <form>
+                <input
+                  type="text"
+                  class="username"
+                  name="username"
+                  placeholder="Your Name"
+                />
+                <input
+                  type="email"
+                  class="email"
+                  name="email"
+                  placeholder="Email"
+                />
+                <input
+                  type="number"
+                  class="phone"
+                  name="phone"
+                  placeholder="Phone"
+                />
+                <input
+                  type="text"
+                  class="subject"
+                  name="subject"
+                  placeholder="Subject"
+                />
+                <textarea
+                  name="message"
+                  id=""
+                  cols="30"
+                  class="message"
+                  placeholder="Message"
+                ></textarea>
+                <button type="submit">
+                  <a href="" class="border-btn"
+                    >submit <i class="bi bi-arrow-right"></i
+                  ></a>
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact-directory" class="contact-directory">
+        <div class="container">
+          <h3 class="section-main-title">Contact directory</h3>
+          <div class="row" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-lg-6 col-md-6 text-start">
+              <p class="section-description mb-0">Managing Director</p>
+            </div>
+            <div class="col-lg-6 col-md-6 text-start">
+              <p class="section-description mb-3">P.Khalid Iqbal</p>
+              <p class="section-sub-title">+91 9694739403900</p>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-lg-6 col-md-6 text-start">
+              <p class="section-description mb-0">Managing Director</p>
+            </div>
+            <div class="col-lg-6 col-md-6 text-start">
+              <p class="section-description mb-3">P.Khalid Iqbal</p>
+              <p class="section-sub-title">+91 9694739403900</p>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up" data-aos-duration="3000">
+            <div class="col-lg-6 col-md-6 text-start">
+              <p class="section-description mb-0">Managing Director</p>
+            </div>
+            <div class="col-lg-6 col-md-6 text-start">
+              <p class="section-description mb-3">P.Khalid Iqbal</p>
+              <p class="section-sub-title">+91 9694739403900</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- footer top section starts -->
+      <section id="map" class="footer-top-section"></section>
+      <!-- footer top section ends -->
+    </main>
+
+    <!-- footer section starts -->
+    <footer id="footer" class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <a href="index.html" class="logo me-auto"
+                ><img
+                  src="assets/images/logo-bg-dark.svg"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+              <div class="pt-2">
+                <p>Po Box: 43196</p>
+                <p>Abu Dabi-united arab emirates</p>
+                <p>Fax: +91 9797989797</p>
+                <p>Tel:+91 98989799898</p>
+                <p>info@alsabeeluae.com</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <p>services</p>
+              <ul>
+                <li>
+                  <a href="#">Rewinding</a>
+                </li>
+                <li>
+                  <a href="#">Engineering services</a>
+                </li>
+                <li>
+                  <a href="#">pump repairing</a>
+                </li>
+                <li>
+                  <a href="#">generators</a>
+                </li>
+                <li>
+                  <a href="#">compressors</a>
+                </li>
+                <li>
+                  <a href="#">A/C spareparts</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <p>company</p>
+              <ul>
+                <li>
+                  <a href="#">about us</a>
+                </li>
+                <li>
+                  <a href="#">our clients</a>
+                </li>
+                <li>
+                  <a href="#">careers</a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <p>contact</p>
+              <ul>
+                <li>
+                  <a href="#">contact us</a>
+                </li>
+                <li>
+                  <a href="#">+91 91919191919</a>
+                </li>
+                <li>
+                  <a href="#">mail@gmail.com</a>
+                </li>
+                <li>
+                  <a href="#" class="instagram"
+                    ><img
+                      src="/assets/images/Instagram.svg"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                  <a href="#" class="facebook"
+                    ><img
+                      src="/assets/images/Facebook.svg"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                  <a href="#" class="youtube"
+                    ><img
+                      src="/assets/images/Youtube.svg"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                  <a href="#" class="linkedin"
+                    ><img
+                      src="/assets/images/Linked In.svg"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                  <a href="#" class="twitter"
+                    ><img
+                      src="/assets/images/Twitter.svg"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container py-4">
+        <div class="d-md-flex justify-content-between text-center">
+          <div class="copyright">
+            &copy; Copyright <strong><span>AL SABEEL</span></strong
+            >. All Rights Reserved
+          </div>
+          <div class="bottom-links text-center">
+            <ul>
+              <li><a href="">site map</a></li>
+              <li><a href="">terms and conditions</a></li>
+              <li><a href="">privacy policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer section ends -->
+
+    <script>
+      function initMap() {
+        var location = { lat: 11.6634857060951, lng: 75.73381206878688 };
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 15,
+          zoomControl: false,
+          mapTypeControl: false,
+          navigationControl: false,
+          streetViewControl: false,
+          center: location,
+        });
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map,
+        });
+      }
+    </script>
+
+    <!-- google api -->
+    <script
+      async
+      defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZtjc58tgFOwIO5Fba7tELbNBpL6gh9so&&callback=initMap"
+    ></script>
+
+    <!-- jquery cdn -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- swiper slider -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- slick slider -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- Data aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Precounter -->
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs/dist/purecounter_vanilla.js"></script>
+
+    <!-- Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- custom js -->
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>
