@@ -1,3 +1,20 @@
+// navbar
+var activeNavItem = $('.nav-item');
+
+activeNavItem.click(function(){
+  activeNavItem.removeClass('active');
+  $(this).addClass('active');  
+});
+
+
+$('.bi.bi-list').click(function(){
+  $(this).toggleClass('bi-list')
+  $(this).toggleClass('bi-chevron-left')
+})
+
+
+
+
 // banner slider
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 1,
@@ -125,7 +142,7 @@ var swiper = new Swiper(".clientsSwiper-second",  {
 
 
 // mobile only slider only in mobile
-mobileOnlySlider(".mob-only-slider", true, false, 992);
+mobileOnlySlider(".mob-only-slider", true, false, 990);
 
 function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
   var slider = $($slidername);
@@ -134,7 +151,7 @@ function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
     dots: $dots,
     arrows: false,
     infinite: true,
-    slidesToShow: 1.5,
+    slidesToShow: 1.9,
     slidesToScroll: 1,
     responsive: [
       {
@@ -165,7 +182,7 @@ function mobileOnlySlider($slidername, $dots, $arrows, $breakpoint) {
     dots: $dots,
     arrows: false,
     infinite: true,
-    slidesToShow: 1.1,
+    slidesToShow: 1.03,
     slidesToScroll: 1,
     responsive: [
       {

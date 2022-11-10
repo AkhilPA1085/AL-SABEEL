@@ -51,23 +51,29 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-white p-0 fixed-top">
         <div class="container">
-          <a class="navbar-brand me-auto p-0" href="#"
+          <a class="navbar-brand me-auto p-0 nav-item" href="/"
             ><img src="assets/images/logo.svg" alt="" class="img-fluid"
           /></a>
-          <i
-            class="bi bi-list navbar-toggler"
+
+          <div
+            class="hamburger navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation"
-          ></i>
+          >
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">About us</a>
+                <a class="nav-link" href="#about">About us</a>
               </li>
+
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle"
@@ -90,15 +96,52 @@
                   <li><a class="dropdown-item" href="#">services 5</a></li>
                 </ul>
               </li>
+
               <li class="nav-item">
                 <a class="nav-link" href="#">careers</a>
               </li>
+
               <li class="nav-item">
-                <a class="nav-link" href="#">clients</a>
+                <a class="nav-link" href="clients.html">clients</a>
               </li>
 
               <li class="nav-item">
-                <a class="nav-link contact" href="#" tabindex="-1">Contact</a>
+                <a class="nav-link contact" href="contact.html" tabindex="-1"
+                  >Contact</a
+                >
+              </li>
+
+              <li class="nav-item topbar-social-links mt-3">
+                <a href="#" class="instagram"
+                  ><img
+                    src="assets/images/Instagram.svg"
+                    alt=""
+                    class="img-fluid"
+                /></a>
+                <a href="#" class="facebook"
+                  ><img
+                    src="assets/images/Facebook.svg"
+                    alt=""
+                    class="img-fluid"
+                /></a>
+                <a href="#" class="youtube"
+                  ><img
+                    src="assets/images/Youtube.svg"
+                    alt=""
+                    class="img-fluid"
+                /></a>
+                <a href="#" class="linkedin"
+                  ><img
+                    src="assets/images/Linked In.svg"
+                    alt=""
+                    class="img-fluid"
+                /></a>
+                <a href="#" class="twitter"
+                  ><img
+                    src="assets/images/Twitter.svg"
+                    alt=""
+                    class="img-fluid"
+                /></a>
               </li>
             </ul>
           </div>
@@ -141,7 +184,7 @@
                     Proin iaculis purus consequat sem cure digni ssim donec
                   </p>
                   <a href="#" class="borderless-btn mt-auto"
-                    >read more <i class="bi bi-arrow-right"></i
+                    >read more </i
                   ></a>
                 </div>
               </div>
@@ -164,7 +207,7 @@
                     Proin iaculis purus consequat sem cure digni ssim donec
                   </p>
                   <a href="#" class="borderless-btn mt-auto"
-                    >read more <i class="bi bi-arrow-right"></i
+                    >read more </i
                   ></a>
                 </div>
               </div>
@@ -186,7 +229,7 @@
                     Proin iaculis purus consequat sem cure digni ssim donec
                   </p>
                   <a href="#" class="borderless-btn mt-auto"
-                    >read more <i class="bi bi-arrow-right"></i
+                    >read more </i
                   ></a>
                 </div>
               </div>
@@ -208,7 +251,7 @@
                     Proin iaculis purus consequat sem cure digni ssim donec
                   </p>
                   <a href="#" class="borderless-btn mt-auto"
-                    >read more <i class="bi bi-arrow-right"></i
+                    >read more </i
                   ></a>
                 </div>
               </div>
@@ -231,7 +274,7 @@
                     Proin iaculis purus consequat sem cure digni ssim donec
                   </p>
                   <a href="#" class="borderless-btn mt-auto"
-                    >read more <i class="bi bi-arrow-right"></i
+                    >read more </i
                   ></a>
                 </div>
               </div>
@@ -253,7 +296,7 @@
                     Proin iaculis purus consequat sem cure digni ssim donec
                   </p>
                   <a href="#" class="borderless-btn mt-auto"
-                    >read more <i class="bi bi-arrow-right"></i
+                    >read more </i
                   ></a>
                 </div>
               </div>
@@ -267,12 +310,12 @@
       <section
         id="footer-top-section"
         class="footer-top-section"
-        style="background-image: url(assets/images/Services\ banner.jpg)"
+        style="background-image: url(assets/images/Contact\ Banner.jpg)"
       >
         <div class="footer-top-section-text-container">
           <h2>Let's help you with your electro-mechanical transfermation</h2>
           <a href="#" class="border-btn"
-            >Contact us <i class="bi bi-arrow-right"></i
+            >Contact us </i
           ></a>
         </div>
       </section>
@@ -294,13 +337,11 @@
               <div class="pt-2">
                 <p>Po Box: 43196</p>
                 <p>Abu Dabi-united arab emirates</p>
-                <p>Fax: +91 9797989797</p>
-                <p>Tel:+91 98989799898</p>
-                <p>info@alsabeeluae.com</p>
+                
               </div>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
+            <div class="col-lg-3 col-md-6 footer-links services-links">
               <p>services</p>
               <ul>
                 <li>
@@ -324,7 +365,7 @@
               </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
+            <div class="col-lg-3 col-md-6 footer-links company-links">
               <p>company</p>
               <ul>
                 <li>
@@ -339,7 +380,44 @@
               </ul>
             </div>
 
-            <div class="col-lg-3 col-md-6 footer-links">
+            <div class="col-lg-3 col-md-6 footer-links social-links">
+              <ul>
+                <li>
+                  <a href="#" class="instagram"
+                    ><img
+                      src="assets/images/Instagram.svg"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                  <a href="#" class="facebook"
+                    ><img
+                      src="assets/images/Facebook.svg"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                  <a href="#" class="youtube"
+                    ><img
+                      src="assets/images/Youtube.svg"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                  <a href="#" class="linkedin"
+                    ><img
+                      src="assets/images/Linked In.svg"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                  <a href="#" class="twitter"
+                    ><img
+                      src="assets/images/Twitter.svg"
+                      alt=""
+                      class="img-fluid"
+                  /></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links contact-links">
               <p>contact</p>
               <ul>
                 <li>
@@ -394,13 +472,6 @@
           <div class="copyright">
             &copy; Copyright <strong><span>AL SABEEL</span></strong
             >. All Rights Reserved
-          </div>
-          <div class="bottom-links text-center">
-            <ul>
-              <li><a href="">site map</a></li>
-              <li><a href="">terms and conditions</a></li>
-              <li><a href="">privacy policy</a></li>
-            </ul>
           </div>
         </div>
       </div>
